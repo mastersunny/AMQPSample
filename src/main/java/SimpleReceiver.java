@@ -3,7 +3,7 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 
-public class Receiver {
+public class SimpleReceiver {
 
     private final static String QUEUE_NAME = "hello";
 
