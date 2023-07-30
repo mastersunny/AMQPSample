@@ -12,6 +12,10 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+
+    // https://mvnrepository.com/artifact/com.rabbitmq/amqp-client
+    implementation 'com.rabbitmq:amqp-client:5.18.0'
+
 }
 
 test {
